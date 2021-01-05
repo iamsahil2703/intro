@@ -5,12 +5,12 @@
 body 				 { background:url(https://scotch.io/wp-content/uploads/2014/07/61.jpg); }
 .container 		{ 
   font-family:'Roboto';
-  width:500px; 
-  margin:30px auto 0; 
-  margin-right: 5px;
+  width:35%; 
+  margin:7% auto 0; 
+  margin-right: 5%;
   display:block; 
   background:#FFF;
-  padding:5px 25px 25px 50px;
+  padding:5% 7% 7% 5%;
   box-shadow: 0 4px 8px 0 rgb(163, 163, 163);
   border-radius: 20px;
   
@@ -34,9 +34,9 @@ h2 small {
 }
 input 				{
   font-size:18px;
-  padding:10px 10px 10px 5px;
+  padding:5% 5% 5% 5%;
   display:block;
-  width:300px;
+  width:90%;
   border:none;
   border-bottom:1px solid #757575;
 }
@@ -122,12 +122,12 @@ input:focus ~ .highlight {
 .container1
 {
     font-family:'Roboto';
-  width:800px; 
-  margin:30px auto 0; 
-  margin-right: 20px;
+  width:50%; 
+  margin:7% auto 0; 
+  margin-right: 5%;
   display:block; 
   background:transparent;
-  padding:5px 25px 25px 50px;
+  padding:5% 7% 7% 10%;
   float: left;
 
 }
@@ -168,13 +168,13 @@ button {
   transition: background 400ms;
   color: #fff;
   background-color: rgb(88, 139, 184);
-  padding: 1rem 2rem;
+  padding: 5% 5%;
   font-family: 'Roboto', sans-serif;
-  font-size: 20px;
+  font-size: 80%;
   outline: 0;
   border: 0;
   border-radius: 0.25rem;
   box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.3);
   cursor: pointer;
-  margin-left: 100px;
+  margin-left: 40%;
 }
