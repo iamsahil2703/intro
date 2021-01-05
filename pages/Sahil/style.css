@@ -1,0 +1,29 @@
+#image
+{
+    text-align: center;
+}    
+h1
+{
+    text-align: center;
+    font-size: 2cm;
+    color: aliceblue;
+    background-color: black;
+}
+#a
+{
+    font-weight: 600;
+    color:black;
+}
+h3
+{
+    background-color:black;
+    color: aliceblue;
+}
+xmp
+{
+    font-size: large;
+}
+ol
+{
+    font-size: large;
+}
