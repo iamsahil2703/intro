@@ -60,7 +60,7 @@ label 				 {
 input:focus ~ label, input:valid ~ label 		{
   top:-20px;
   font-size:14px;
-  color:#5264AE;
+  color:rgb(88, 139, 184);
 }
 
 /* BOTTOM BARS ================================= */
@@ -71,7 +71,7 @@ input:focus ~ label, input:valid ~ label 		{
   width:0;
   bottom:1px; 
   position:absolute;
-  background:#5264AE; 
+  background:rgb(88, 139, 184); 
   transition:0.2s ease all; 
   -moz-transition:0.2s ease all; 
   -webkit-transition:0.2s ease all;
@@ -108,15 +108,15 @@ input:focus ~ .highlight {
 
 /* ANIMATIONS ================ */
 @-webkit-keyframes inputHighlighter {
-	from { background:#5264AE; }
+	from { background:rgb(88, 139, 184); }
   to 	{ width:0; background:transparent; }
 }
 @-moz-keyframes inputHighlighter {
-	from { background:#5264AE; }
+	from { background:rgb(88, 139, 184); }
   to 	{ width:0; background:transparent; }
 }
 @keyframes inputHighlighter {
-	from { background:#5264AE; }
+	from { background:rgb(88, 139, 184); }
   to 	{ width:0; background:transparent; }
 }
 .container1
@@ -158,5 +158,23 @@ h3
     text-align: center;
     color: white;
 }
-
-
+a:visited
+{
+  color: rgb(88, 139, 184);;
+}
+button {
+  position: relative;
+  overflow: hidden;
+  transition: background 400ms;
+  color: #fff;
+  background-color: rgb(88, 139, 184);
+  padding: 1rem 2rem;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  outline: 0;
+  border: 0;
+  border-radius: 0.25rem;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  margin-left: 100px;
+}
